@@ -53,8 +53,7 @@
 .line {
 	border-top: white solid 5px;
 	transition: all 1s;
-	width:60%;
-	margin: 20px auto;
+	margin: 20px 13% 0px 0%;
 	position: relative;
 	top: 5%;
 
