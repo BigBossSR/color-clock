@@ -18,27 +18,35 @@
 	font-size: 200px;
 	font-family: monospace;
 	color: white;
+	height: 200px;
+
+}
+
+.section {
 
 }
 
 .clock {
-	display: none;
+	height: 0px;
+	overflow: hidden;
 	transition: height 1s;
 }
 
 .clock.active {
-	display: block;	
-	transition: height 1s;
+
+	height: 200px;
+
 }
 
 .color-code {
-	display:none;
+	height: 0px;
 	transition: height 1s;
+	overflow: hidden
 }
 
 .color-code.active {
-	display: block;
-	transition: height 1s;
+	height: 200px;
+
 
 }
 
@@ -47,8 +55,8 @@
 	transition: all 1s;
 	width:60%;
 	margin: 20px auto;
+	position: relative;
+	top: 5%;
+
 }
 
-.active {
-	transition: height 1s;
-}
