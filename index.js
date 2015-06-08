@@ -65,6 +65,7 @@ var runClock = setInterval(function() {
 
 
   $(".container").css({"background-color":"#"+colorSet})
+  
 
   $(".line").css({"margin-left": (87-(73/59)*second)+"%"})
 
